@@ -1,17 +1,30 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import MovieList from './/components/MovieList'
 
 
 const App = () => {
   const [movies, setMovies] = useState([]);
+  
+  useEffect(() => {
+    fetch(`http://localhost:5000/movies`)
+      .then((res) => res.json())
+    .then((data) =>setMovies(data))
+  },[])
 
 
-  const getMovies = async () => {
-    const response = await fetch("http://localhost:5000/movies");
-    const data = await response.json();
-    setMovies (data)
-  }
+
+
+  
+  
+  
+
+  return (
+    <MovieList movies={movies} />
+  )
+
+  
 }
 
 

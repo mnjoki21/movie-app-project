@@ -1,12 +1,14 @@
-import React from "react";
-
+import React from 'react'
 const MovieList = (props) => {
     return (
         <>
-            {props.movies.map((movie) => 
-                <img src= {movie.poster} alt= "poster"></img>
-            )}
-        
+           {props.movies.map((movie) => (
+           <div
+            className="d-flex justify-content-start m-3">
+             <img src={movie.Poster} alt='movies'></img>
+           </div>
+           ))}
         </>
     )
 }
+export default MovieList
