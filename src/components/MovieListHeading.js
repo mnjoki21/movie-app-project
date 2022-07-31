@@ -6,3 +6,5 @@ const MovieHeadings = (props) => {
         </div>
     )
 }
+
+export default MovieHeadings;
