@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(5, 9, 31);
+  color:  whitesmoke;
+}
+
+.movie-app > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
