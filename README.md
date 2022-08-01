@@ -35,11 +35,11 @@ Installation :
 Live Link : https://mnjoki21.github.io/movie-app-project/
 
 Technology used :
-                 HTML: The markup language was used to build the base structure of the web application
+HTML: The markup language was used to build the base structure of the web application
 
-                 CSS and BOOTSTRAP : which was used to style the web application to achieve the visual result
+CSS and BOOTSTRAP : which was used to style the web application to achieve the visual result
 
-                 JAVASCRIPT : it was used to dynamically render the movies to DOM fetch data from the API and also improve the interactivity of the web                     application
+JAVASCRIPT : it was used to dynamically render the movies to DOM fetch data from the API and also improve the interactivity of the web                     application
 
 Licence :
 
