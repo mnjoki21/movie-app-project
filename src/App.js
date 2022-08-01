@@ -15,7 +15,7 @@ const App = () => {
 
 
     useEffect(() => {
-        fetch('  http://localhost:5000/movies')
+        fetch('https://destiny-scarlet-boa.glitch.me/')
             .then((res) => res.json())
             .then((data) => setMovies(data))
     }, [searchValue]);
